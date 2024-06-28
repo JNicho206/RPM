@@ -12,8 +12,8 @@ function App() {
 
   return (
     <div className="flex flex-col min-h-screen">
-      <NavBar />
         <Router>
+        <NavBar />
           <div className="flex-1">
             <Routes>
               <Route path="/" element={<Home />} />
