@@ -9,9 +9,9 @@ export const FAQ: React.FC = () =>
 
 
     return (
-        <div className="flex flex-col items-center mx-20">
+        <div className="flex flex-col items-center mx-20 my-20 gap-10">
             <div className="flex flex-col">
-                <h1>FAQ</h1>
+                <h1 className="text-center border-b-4 border-black border-solid w-min px-8">FAQ</h1>
                 <div>
                     {questions.map((q) => (
                         <FAQEntry></FAQEntry>
@@ -20,7 +20,7 @@ export const FAQ: React.FC = () =>
             </div>
 
             <div>
-                <h1>Advice From Teachers</h1>
+                <h1 className="border-b-4 border-black border-solid w-fit px-8">Advice From Teachers</h1>
                 <div>
                     {advice.map((a) => (
                         <AdviceEntry></AdviceEntry>
