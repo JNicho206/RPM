@@ -1,5 +1,8 @@
 import React from "react";
 import logo from "../assets/tmp.jpg";
+import { RouteButton } from "./RouteButton";
+
+
 export const Footer: React.FC = () =>
 {
 
@@ -21,8 +24,8 @@ export const Footer: React.FC = () =>
             </div>
             <div className="flex flex-col items-center justify-center gap-2">
                 <h1>Questions?</h1>
-                <a href="/faq">FAQ</a>
-                <a href="/about">About</a>
+                <RouteButton title={"FAQ"} route={"/faq"}></RouteButton>
+                <RouteButton title={"About"} route={"/about"}></RouteButton>
             </div>
 
         </div>
