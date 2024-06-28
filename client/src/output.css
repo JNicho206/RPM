@@ -625,6 +625,10 @@ video {
   margin-right: 1rem;
 }
 
+.ms-2 {
+  margin-inline-start: 0.5rem;
+}
+
 .mt-2 {
   margin-top: 0.5rem;
 }
@@ -635,6 +639,10 @@ video {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.block {
+  display: block;
 }
 
 .flex {
@@ -912,6 +920,11 @@ video {
 .focus\:ring-blue-300:focus {
   --tw-ring-opacity: 1;
   --tw-ring-color: rgb(147 197 253 / var(--tw-ring-opacity));
+}
+
+.rtl\:rotate-180:where([dir="rtl"], [dir="rtl"] *) {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 @media (prefers-color-scheme: dark) {
