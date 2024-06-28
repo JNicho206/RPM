@@ -13,18 +13,18 @@ function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <NavBar />
-      <div className="flex-1">
         <Router>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about/*" element={<About />} />
-            <Route path="/books/*" element={<Books />} />
-            <Route path="/faq" element={<FAQ />} />
-            <Route path="/how-to-use/*" element={<HowToUse />} />
-          </Routes>
+          <div className="flex-1">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about/*" element={<About />} />
+              <Route path="/books/*" element={<Books />} />
+              <Route path="/faq" element={<FAQ />} />
+              <Route path="/how-to-use/*" element={<HowToUse />} />
+            </Routes>
+          </div>
+        <Footer />
         </Router>
-      </div>
-      <Footer />
     </div>
   )
 }
