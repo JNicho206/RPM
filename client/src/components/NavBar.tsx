@@ -1,6 +1,10 @@
 import React, { useState } from "react";
 import { SearchBar } from "./SearchBar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { FaHome, FaQuestion } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import { RouteButton, RouteButtonProps } from "./RouteButton";
+import { ImBooks } from "react-icons/im";
 
 interface DropDownItem 
 {
@@ -81,7 +85,7 @@ export const NavBar: React.FC = () =>
         // RPL logo --> Home --> Search Bar --> About (Dropdown) --> How to Use (Dropdown) --> Books --> FAQ
         <div className="sticky top-0 h-20 w-full bg-blue-300 flex justify-evenly items-center gap-4">
             <div className="flex gap-4 items-center justify-items-center">
-                <a className="" href="/">Home</a>
+                <RouteButton title={"Home"} route={"/"} Icon={FaHome}></RouteButton>
                 <SearchBar></SearchBar>
             </div>
             <div className="flex gap-4">
@@ -90,8 +94,8 @@ export const NavBar: React.FC = () =>
                         <DropDown name={props.name} items={props.items} hideF={props.hideF} showF={props.showF} show={props.show}></DropDown>
                     ))
                 }
-                <a className={buttonStyle} href="/books">Books</a>
-                <a className={buttonStyle} href="/faq">FAQ</a>
+                <RouteButton title={"Books"} route={"/books"} Icon={ImBooks}></RouteButton>
+                <RouteButton title={"FAQ"} route={"/faq"} Icon={FaQuestion}></RouteButton>
             </div>
         </div>
     )
