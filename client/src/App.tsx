@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css'
 import { NavBar } from './components/NavBar'
 import { Footer } from './components/Footer'
 import { Home } from './pages/Home';
@@ -12,19 +11,21 @@ import { HowToUse } from './pages/HowToUse';
 function App() {
 
   return (
-    <>
-      <NavBar></NavBar>
-      <Router>
-        <Routes>
-          <Route path="/" Component={Home}/>
-          <Route path="/about" Component={About} />
-          <Route path="/books" Component={Books} />
-          <Route path="/faq" Component={FAQ}/>
-          <Route path="/how-to-use" Component={HowToUse}/>
-        </Routes>
-      </Router>
-      <Footer></Footer>
-    </>
+    <div className="flex flex-col min-h-screen">
+      <NavBar />
+      <div className="flex-1">
+        <Router>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about/*" element={<About />} />
+            <Route path="/books/*" element={<Books />} />
+            <Route path="/faq" element={<FAQ />} />
+            <Route path="/how-to-use/*" element={<HowToUse />} />
+          </Routes>
+        </Router>
+      </div>
+      <Footer />
+    </div>
   )
 }
 
