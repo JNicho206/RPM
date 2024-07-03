@@ -43,7 +43,7 @@ export const Home: React.FC = () =>
             </div>
             <div className="flex w-full h-70 mt-5">{/* Goals */}
                 {goalInfo.map((goal) => (
-                    <Goal n={goal.n} title={goal.title} description={goal.description}></Goal>
+                    <Goal key={goal.n} n={goal.n} title={goal.title} description={goal.description}></Goal>
                 ))}
             </div>
         </div>
