@@ -5,7 +5,7 @@ import { RouteButton } from "./RouteButton";
 
 export interface GPSessionEntryProps {
     name: string,
-    pdf?: string,
+    pdf: string,
     objective: string
 };
 
