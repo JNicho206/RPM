@@ -1,8 +1,11 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import mock from "../assets/data/about/our-team/photos/mock.jpg";
 import memberData from "../assets/data/about/our-team/team-info.json";
 import { TeamMemberAboutEntry, TeamMemberAboutEntryProps } from "../components/TeamMemberAboutEntry";
+import Card from "react-bootstrap/Card";
+import { RouteButton } from "../components/RouteButton";
+import { Link } from "react-router-dom";
 
 
 export const About: React.FC = () =>
@@ -11,9 +14,60 @@ export const About: React.FC = () =>
     return (
         <div className="my-20">
             <Routes>
-                <Route path="research" Component={Research}></Route>
-                <Route path="our-team" Component={OurTeam}></Route>
+                <Route path="/" element={<Default/>}></Route>
+                <Route path="research" element={<Research/>}></Route>
+                <Route path="our-team" element={<OurTeam/>}></Route>
             </Routes>
+        </div>
+    )
+}
+
+const Default: React.FC = () => {
+    const [researchBg, setResearchBg] = useState("secondary");
+    const [ourTeamBg, setOurTeamBg] = useState("secondary");
+
+    const handleResearchEnter = () => {
+        setResearchBg("info");
+    }
+    const handleResearchLeave = () => {
+        setResearchBg("secondary");
+    }
+
+    const handleOurTeamEnter = () => {
+        setOurTeamBg("info");
+    }
+    const handleOurTeamLeave = () => {
+        setOurTeamBg("secondary");
+    }
+
+    return (
+        <div className="flex flex-col items-center mx-20">
+            <h1>About</h1>
+            <div className="flex gap-10">
+                <Link to="research">
+                    <Card bg={researchBg} text="white" style={{ width: '25rem', height: "350px", cursor: "pointer"}} onMouseEnter={handleResearchEnter} onMouseLeave={handleResearchLeave}>
+                        <Card.Body>
+                            <Card.Title>Research</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Publications and Evidence for RPM</Card.Subtitle>
+                            <Card.Text>
+                            Here you can view publications from our researchers about ... You can also read through evidence that supports the methods used in RPM.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Link>
+                <Link to="our-team">
+                    <Card bg={ourTeamBg} text="white" style={{ width: '25rem', height: "350px", cursor: "pointer"}} onMouseEnter={handleOurTeamEnter} onMouseLeave={handleOurTeamLeave}>
+                        <Card.Body>
+                            <Card.Title>Our Team</Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted">Meet our team and learn more about them and their work.</Card.Subtitle>
+                            <Card.Text>
+                            Here you can get to know our team members, what their roles have been, and check out links to their work and profiles.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Link>
+            </div>
+
         </div>
     )
 }
