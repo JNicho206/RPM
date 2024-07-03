@@ -4,19 +4,23 @@
         "sessions": [
             {
                 "name": "Week 1 - Session 1",
-                "objective": "To enhance children’s understanding of the target words: most, more"
+                "objective": "To enhance children’s understanding of the target words: most, more",
+                "pdf": "./sessions/session-1.pdf"
             },
             {
                 "name": "Week 1 - Session 2",
-                "objective": "To enhance children’s understanding of the target words: many, a lot"
+                "objective": "To enhance children’s understanding of the target words: many, a lot",
+                "pdf": "./sessions/session-2.pdf"
             },
             {
                 "name": "Week 2 - Session 3",
-                "objective": "To enhance children’s understanding of the target words: many, a lot"
+                "objective": "To enhance children’s understanding of the target words: many, a lot",
+                "pdf": "./sessions/session-3.pdf"
             },
             {
                 "name": "Week 2 - Session 4",
-                "objective": "To enhance children’s understanding of the target words: most, more"
+                "objective": "To enhance children’s understanding of the target words: most, more",
+                "pdf": "./sessions/session-4.pdf"
             }
         ] 
     },
@@ -25,19 +29,23 @@
         "sessions": [
             {
                 "name": "Week 3 - Session 5",
-                "objective": "To enhance children’s understanding of the target word: different"
+                "objective": "To enhance children’s understanding of the target word: different",
+                "pdf": "./sessions/session-5.pdf"
             },
             {
                 "name": "Week 3 - Session 6",
-                "objective": "To enhance children’s understanding of the target word: same"
+                "objective": "To enhance children’s understanding of the target word: same",
+                "pdf": "./sessions/session-6.pdf"
             },
             {
                 "name": "Week 4 - Session 7",
-                "objective": "To enhance children’s understanding of the target word: same and similar"
+                "objective": "To enhance children’s understanding of the target word: same and similar",
+                "pdf": "./sessions/session-7.pdf"
             },
             {
                 "name": "Week 4 - Session 8",
-                "objective": "To enhance children’s understanding of the target word: different and similar"
+                "objective": "To enhance children’s understanding of the target word: different and similar",
+                "pdf": "./sessions/session-8.pdf"
             }
         ] 
     },
@@ -46,19 +54,23 @@
         "sessions": [
             {
                 "name": "Week 5 - Session 9",
-                "objective": "To enhance children’s understanding of the target word: some and a little bit"
+                "objective": "To enhance children’s understanding of the target word: some and a little bit",
+                "pdf": "./sessions/session-9.pdf"
             },
             {
                 "name": "Week 5 - Session 10",
-                "objective": "To enhance children’s understanding of the target word: least and fewest"
+                "objective": "To enhance children’s understanding of the target word: least and fewest",
+                "pdf": "./sessions/session-10.pdf"
             },
             {
                 "name": "Week 6 - Session 11",
-                "objective": "To enhance children’s understanding of the target word: least and less"
+                "objective": "To enhance children’s understanding of the target word: least and less",
+                "pdf": "./sessions/session-11.pdf"
             },
             {
                 "name": "Week 6 - Session 12",
-                "objective": "To enhance children’s understanding of the target word: less and few"
+                "objective": "To enhance children’s understanding of the target word: less and few",
+                "pdf": "./sessions/session-12.pdf"
             }
         ] 
     },
@@ -67,19 +79,23 @@
         "sessions": [
             {
                 "name": "Week 7 - Session 13",
-                "objective": "To enhance children’s understanding of the target word: more and same"
+                "objective": "To enhance children’s understanding of the target word: more and same",
+                "pdf": "./sessions/session-13.pdf"
             },
             {
                 "name": "Week 7 - Session 14",
-                "objective": "To enhance children’s understanding of the target word: a lot and same"
+                "objective": "To enhance children’s understanding of the target word: a lot and same",
+                "pdf": "./sessions/session-14.pdf"
             },
             {
                 "name": "Week 8 - Session 15",
-                "objective": "To enhance children’s understanding of the target word: similar and more"
+                "objective": "To enhance children’s understanding of the target word: similar and more",
+                "pdf": "./sessions/session-15.pdf"
             },
             {
                 "name": "Week 8 - Session 16",
-                "objective": "To enhance children’s understanding of the target word: similar and most"
+                "objective": "To enhance children’s understanding of the target word: similar and most",
+                "pdf": "./sessions/session-16.pdf"
             }
         ] 
     },
@@ -88,19 +104,23 @@
         "sessions": [
             {
                 "name": "Week 9 - Session 17",
-                "objective": "To enhance children’s understanding of the target word: many and a little bit"
+                "objective": "To enhance children’s understanding of the target word: many and a little bit",
+                "pdf": "./sessions/session-17.pdf"
             },
             {
                 "name": "Week 9 - Session 18",
-                "objective": "To enhance children’s understanding of the target word: few and a lot"
+                "objective": "To enhance children’s understanding of the target word: few and a lot",
+                "pdf": "./sessions/session-18.pdf"
             },
             {
                 "name": "Week 10 - Session 19",
-                "objective": "To enhance children’s understanding of the target word: few and some"
+                "objective": "To enhance children’s understanding of the target word: few and some",
+                "pdf": "./sessions/session-19.pdf"
             },
             {
                 "name": "Week 10 - Session 20",
-                "objective": "To enhance children’s understanding of the target word: most and fewest"
+                "objective": "To enhance children’s understanding of the target word: most and fewest",
+                "pdf": "./sessions/session-20.pdf"
             }
         ] 
     },
@@ -109,19 +129,23 @@
         "sessions": [
             {
                 "name": "Week 11 - Session 21",
-                "objective": "To enhance children’s understanding of the target word: different and same"
+                "objective": "To enhance children’s understanding of the target word: different and same",
+                "pdf": "./sessions/session-21.pdf"
             },
             {
                 "name": "Week 11 - Session 22",
-                "objective": "To enhance children’s understanding of the target word: similar and a couple"
+                "objective": "To enhance children’s understanding of the target word: similar and a couple",
+                "pdf": "./sessions/session-22.pdf"
             },
             {
                 "name": "Week 12 - Session 23",
-                "objective": "To enhance children’s understanding of the target word: just enough and several"
+                "objective": "To enhance children’s understanding of the target word: just enough and several",
+                "pdf": "./sessions/session-23.pdf"
             },
             {
                 "name": "Week 12 - Session 24",
-                "objective": "To enhance children’s understanding of the target word: a little bit and several"
+                "objective": "To enhance children’s understanding of the target word: a little bit and several",
+                "pdf": "./sessions/session-24.pdf"
             }
         ] 
     },
@@ -130,27 +154,33 @@
         "sessions": [
             {
                 "name": "Week 13 - Session 25",
-                "objective": "To enhance children’s understanding of the target word: combine and a lot"
+                "objective": "To enhance children’s understanding of the target word: combine and a lot",
+                "pdf": "./sessions/session-25.pdf"
             },
             {
                 "name": "Week 13 - Session 26",
-                "objective": "To enhance children’s understanding of the target word: same and similar"
+                "objective": "To enhance children’s understanding of the target word: same and similar",
+                "pdf": "./sessions/session-26.pdf"
             },
             {
                 "name": "Week 14 - Session 27",
-                "objective": "To enhance children’s understanding of the target word: few and some"
+                "objective": "To enhance children’s understanding of the target word: few and some",
+                "pdf": "./sessions/session-27.pdf"
             },
             {
                 "name": "Week 14 - Session 28",
-                "objective": "To enhance children’s understanding of the target word: similar and a lot"
+                "objective": "To enhance children’s understanding of the target word: similar and a lot",
+                "pdf": "./sessions/session-28.pdf"
             },
             {
                 "name": "Week 15 - Session 29",
-                "objective": "To enhance children’s understanding of the target word: many and a few"
+                "objective": "To enhance children’s understanding of the target word: many and a few",
+                "pdf": "./sessions/session-29.pdf"
             },
             {
                 "name": "Week 15 - Session 30",
-                "objective": "To enhance children’s understanding of the target word: some and most"
+                "objective": "To enhance children’s understanding of the target word: some and most",
+                "pdf": "./sessions/session-30.pdf"
             }
         ] 
     }
