@@ -1,10 +1,12 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
-
-
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 #root {
     min-width: 100vh;
     min-height: 100vh;
+}
+
+.section-header {
+    @apply text-center border-b-4 border-black border-solid w-fit px-8;
 }
