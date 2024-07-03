@@ -90,8 +90,8 @@ export const NavBar: React.FC = () =>
             </div>
             <div className="flex gap-4">
                 {
-                    dropDownInfo.map((props) => (
-                        <DropDown name={props.name} items={props.items} hideF={props.hideF} showF={props.showF} show={props.show}></DropDown>
+                    dropDownInfo.map((props, index) => (
+                        <DropDown key={index} name={props.name} items={props.items} hideF={props.hideF} showF={props.showF} show={props.show}></DropDown>
                     ))
                 }
                 <RouteButton title={"Books"} route={"/books"} Icon={ImBooks}></RouteButton>
@@ -112,8 +112,8 @@ export const DropDown: React.FC<DropDownProps> = ({name, items, show, showF, hid
               menuVariant="dark"
               show={show}
             >
-            {items.map((item) => (
-                <NavDropdown.Item href={item.link}>{item.name}</NavDropdown.Item>
+            {items.map((item, index) => (
+                <NavDropdown.Item key={index} href={item.link}>{item.name}</NavDropdown.Item>
             ))}
             </NavDropdown>
         </div>
