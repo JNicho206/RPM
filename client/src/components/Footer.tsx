@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../assets/tmp.jpg";
+import logo from "../assets/tmp.jpg"
 import { RouteButton } from "./RouteButton";
 import { FaQuestion } from "react-icons/fa";
 import { SlPeople } from "react-icons/sl";
