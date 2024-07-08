@@ -22,8 +22,8 @@ export const FAQ: React.FC = () =>
             <div>
                 <h1 className="section-header">Advice From Teachers</h1>
                 <div className="flex flex-col gap-4 items-center">
-                    {advice.map((a) => (
-                        <AdviceEntry name={a.name} advice={a.advice}></AdviceEntry>
+                    {advice.map((a, i) => (
+                        <AdviceEntry key={i} name={a.name} advice={a.advice}></AdviceEntry>
                     ))}
                 </div>
             </div>

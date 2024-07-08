@@ -2,6 +2,7 @@ import React from "react";
 import { FaFilePdf } from "react-icons/fa6";
 import Accordion from "react-bootstrap/Accordion";
 import { RouteButton } from "./RouteButton";
+import { OpenPDFButton } from "./OpenPDFButton";
 
 export interface GPSessionEntryProps {
     name: string,
@@ -12,7 +13,7 @@ export interface GPSessionEntryProps {
 
 export const GPSessionEntry: React.FC<GPSessionEntryProps> = ({name, pdf, objective}) => {
 
-    const pdfRoute = "/how-to-use/guided-play/" + pdf;
+    const pdfRoute = "/assets/data/" + pdf;
 
     return (
         <div>
@@ -22,7 +23,7 @@ export const GPSessionEntry: React.FC<GPSessionEntryProps> = ({name, pdf, object
                     <Accordion.Body>
                         <div className="flex flex-col items-center gap-2">
                             <span>{objective}</span>
-                            <RouteButton title="Session Guide" route={pdfRoute} Icon={FaFilePdf}></RouteButton>
+                            <OpenPDFButton path={pdfRoute}></OpenPDFButton>
                         </div>
 
                     </Accordion.Body>
@@ -31,8 +32,6 @@ export const GPSessionEntry: React.FC<GPSessionEntryProps> = ({name, pdf, object
         </div>
 
     )
-
-
 };
 
 

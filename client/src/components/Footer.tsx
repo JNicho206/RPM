@@ -1,5 +1,6 @@
 import React from "react";
-import logo from "../assets/tmp.jpg"
+import logo from "../assets/tmp.jpg";
+import P from "../assets/purdue-P.svg";
 import { RouteButton } from "./RouteButton";
 import { FaQuestion } from "react-icons/fa";
 import { SlPeople } from "react-icons/sl";
@@ -8,7 +9,10 @@ export const Footer: React.FC = () =>
 {
 
     return (
-        <div className="flex justify-evenly bg-blue-300 w-full h-[180px] relative top-0">
+        <div className="flex justify-evenly bg-purdue-gold w-full h-[180px] relative top-0">
+            <div className="flex items-center">
+                <img src={P}></img>
+            </div>
             <div className="flex justify-center items-center m-10 w-fit">
                 <h1 className="font-bold text-7xl">RPM</h1>
             </div>
