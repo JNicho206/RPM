@@ -10,3 +10,7 @@
 .section-header {
     @apply text-center border-b-4 border-black border-solid w-fit px-8;
 }
+
+.bg-purdue-gold {
+    background-color: rgb(205,188,152);
+}
