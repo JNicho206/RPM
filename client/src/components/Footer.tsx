@@ -11,7 +11,20 @@ export const Footer: React.FC = () =>
     return (
         <div className="flex justify-evenly bg-purdue-gold w-full h-[180px] relative top-0">
             <div className="flex items-center">
-                <img src={P}></img>
+                <div className="flex gap-4 h-full">
+                    <div className="flex flex-col h-full items-center justify-center w-[275px]">
+                        <img src={P} className="w-[205px] h-[110px]"/>
+                        <div>
+                            <span className="font-bold font-serif text-2xl">Purdue University</span>
+                        </div>
+                    </div>
+                    <span className="bg-black w-[5px] h-[140px] self-center"/>
+                    <div className="flex flex-col justify-evenly items-center">
+                        <span className="text-3xl"><b>C</b>enter for <b>E</b>arly <b>L</b>earning</span>
+                        <span className="text-3xl font-extrabold">CEL</span>
+                        <span className="font-extrabold text-3xl">Research | Practice | Policy</span>
+                    </div>
+                </div>
             </div>
             <div className="flex justify-center items-center m-10 w-fit">
                 <h1 className="font-bold text-7xl">RPM</h1>
