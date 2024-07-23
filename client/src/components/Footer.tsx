@@ -21,7 +21,6 @@ export const Footer: React.FC = () =>
                     <span className="bg-black w-[5px] h-[140px] self-center"/>
                     <div className="flex flex-col justify-evenly items-center">
                         <span className="text-3xl"><b>C</b>enter for <b>E</b>arly <b>L</b>earning</span>
-                        <span className="text-3xl font-extrabold">CEL</span>
                         <span className="font-extrabold text-3xl">Research | Practice | Policy</span>
                     </div>
                 </div>

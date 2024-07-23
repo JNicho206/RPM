@@ -7,22 +7,22 @@ export const Home: React.FC = () =>
         {
             n: 1,
             title: "Mathematical Language",
-            description: "Explain what is it and why it is important"
+            description: "Provide children with knowledge and understanding of key quantitative mathematical language terms and concepts that build the foundation of mathematics development."
         },
         {
             n: 2,
             title: "Dialogic Reading",
-            description: "Explain what is it and why it is important"
+            description: "Support children with the ability to apply this knowledge in hands-on and meaningful ways that extend into the classroom."
         },
         {
             n: 3,
             title: "Guided Play",
-            description: "Explain what is it and why it is important"
+            description: "Show children that mathematics can be used to solve real world challenges and help them better understand their world."
         },
         {
             n: 4,
             title: "Attending to Linguistic and Culture",
-            description: "Explain what is it and why it is important"
+            description: "Enhance students’ and teachers’ love of mathematics through intentional learning experiences that fit naturally into a typical preschool classroom."
         }
     ]
 

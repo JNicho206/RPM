@@ -120,7 +120,7 @@ export const OurTeam: React.FC = () =>
             <h1 className="font-bold text-5xl border-b-4 border-black border-solid px-4">Our Team</h1>
             <div className="flex flex-col items-center gap-10">
                 {memberData.map((member) => (
-                    <TeamMemberAboutEntry name={member.name as string} bio={member.bio as string} img={mock as string}></TeamMemberAboutEntry>
+                    <TeamMemberAboutEntry name={member.name as string} bio={member.bio as string} img={member.img as string}></TeamMemberAboutEntry>
                 ))}
             </div>
         </div>

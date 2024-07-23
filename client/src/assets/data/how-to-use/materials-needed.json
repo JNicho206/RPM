@@ -1,0 +1,57 @@
+[
+    {
+        "material": "RPM Manual",
+        "items": [
+
+        ],
+        "link": {
+            "file": true,
+            "path": "/assets/data/how-to-use/RPM-Manual.pdf"
+        }
+    },
+    {
+        "material": "1 Progress Monitoring Checklist per student",
+        "items": [
+
+        ],
+        "link": {
+            "file": false,
+            "path": "/how-to-use/progress-monitoring"
+        }
+    },
+    {
+        "material": "Four online training videos",
+        "items": [
+
+        ],
+        "link": {
+            "file": false,
+            "path": "/how-to-use/training-materials"
+        }
+    },
+    {
+        "material": "Six The Little Elephants’ Big Adventures Books",
+        "items": [
+            "Too Many Pillows",
+            "Just Enough Eggs",
+            "Picnic With Some Peanuts",
+            "So Many Shooting Stars",
+            "Couple of Cool Ideas",
+            "A Different Winter Den"
+        ],
+        "link": {
+            "file": false,
+            "path": "/books"
+        }
+    },
+    {
+        "material": "The session guides listed below",
+        "items": []
+    },
+    {
+        "material": "The guided play materials listed for each week below",
+        "items": [
+
+        ]
+    }
+]

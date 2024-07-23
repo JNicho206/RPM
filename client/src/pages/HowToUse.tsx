@@ -3,6 +3,20 @@ import { Accordion } from "react-bootstrap";
 import {Routes, Route} from "react-router-dom";
 import units from "../assets/data/how-to-use/guided-play/unit-info.json";
 import { GPUnitEntry } from "../components/GPUnitEntry";
+import materials from "../assets/data/how-to-use/materials-needed.json";
+import { Link } from "react-router-dom";
+import { GPTable } from "../components/GPTable";
+
+interface MaterialLink {
+    file: boolean,
+    path: string
+}
+
+interface Material {
+    material: string,
+    items?: string[],
+    link?: MaterialLink
+};
 
 export const HowToUse: React.FC = () =>
 {
@@ -43,25 +57,40 @@ const MaterialsNeeded: React.FC = () =>
 {
     return (
         <div className="flex flex-col items-center gap-4">
-            <div>
+            <div className="flex flex-col items-center">
                 <h1 className="section-header">Materials</h1>
                 <div className="flex flex-col items-center">
-                    <ul className="list-disc">
-                        <li>1</li>
-                        <li>2</li>
-                        <li>3</li>
-                        <li>4</li>
-                        <li>5</li>
-                    </ul>
+                    <ol className="list-decimal">
+                        {materials.map((m: Material) => (
+                            <li>
+                                {/* No Link */}
+                                {!m.link && m.material} 
+                                {/* Link and path is to a file */}
+                                {m.link && m.link.file && <a href={m.link?.path} target="_blank" rel="noopener noreferrer">{m.material}</a>}
+                                {/* Link and path is to a page */}
+                                {m.link && !m.link.file && <Link to={m.link.path}>{m.material}</Link>}
+
+                                {m.items && 
+                                    <ul className="list-disc">
+                                        {m.items.map((i) => (<li>{i}</li>))}
+                                    </ul>
+                                }
+                            </li>
+                        ))}
+                    </ol>
                 </div>
             </div>
             <div className="flex flex-col items-center">
-                <h1 className="section-header">Guided Play Materials</h1>
+                <h1 className="section-header">Session Guides</h1>
                 <div className="flex flex-col gap-4">
                     {units.map((u, index) => (
                         <GPUnitEntry name={u.name} sessions={u.sessions}></GPUnitEntry>
                     ))}
                 </div>
+            </div>
+            <div>
+                <h1 className="section-header">Guided Play Materials</h1> 
+                <GPTable></GPTable>  
             </div>
         </div>
 
