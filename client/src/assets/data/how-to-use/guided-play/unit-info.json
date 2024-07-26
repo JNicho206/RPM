@@ -5,21 +5,59 @@
             {
                 "name": "Week 1 - Session 1",
                 "objective": "To enhance children’s understanding of the target words: most, more",
+                "guided-play": {
+                    "materials": [
+                        "Play Food",
+                        "Backpacks",
+                        "Teddy Bears",
+                        "Pillows"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-1.pdf"
             },
             {
                 "name": "Week 1 - Session 2",
                 "objective": "To enhance children’s understanding of the target words: many, a lot",
+                "guided-play": {
+                    "materials": [
+                        "Play Food",
+                        "Backpacks",
+                        "Teddy Bears",
+                        "Pillows",
+                        "Flashlights",
+                        "Tent"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-2.pdf"
             },
             {
                 "name": "Week 2 - Session 3",
                 "objective": "To enhance children’s understanding of the target words: many, a lot",
+                "guided-play": {
+                    "materials": [
+                        "Dry Sensory Material (e.g. rice, sand, dirt)",
+                        "Teddy Bears",
+                        "Plastic Bowls",
+                        "Plastic Peanuts",
+                        "Plastic Shovels"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-3.pdf"
             },
             {
                 "name": "Week 2 - Session 4",
                 "objective": "To enhance children’s understanding of the target words: most, more",
+                "guided-play": {
+                    "materials": [
+                        "Dry Sensory Material (e.g. rice, sand, dirt)",
+                        "Teddy Bears",
+                        "Plastic Bowls",
+                        "Plastic Peanuts",
+                        "Plastic Shovels",
+                        "Plastic Spiders",
+                        "Measuring Spoons"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-4.pdf"
             }
         ] 
@@ -30,21 +68,79 @@
             {
                 "name": "Week 3 - Session 5",
                 "objective": "To enhance children’s understanding of the target word: different",
+                "guided-play": {
+                    "materials": [
+                        "Different size mixing bowls",
+                        "Cake Recipe (Appendix pg. 90)",
+                        "Measuring Pitchers",
+                        "Measuring Cups",
+                        "Measuring Spoons",
+                        "Aprons",
+                        "Chef Hats",
+                        "Play Food",
+                        "Plastic Eggs",
+                        "Plastic Peanuts",
+                        "Baking Pans",
+                        "Teddy Bears"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-5.pdf"
             },
             {
                 "name": "Week 3 - Session 6",
                 "objective": "To enhance children’s understanding of the target word: same",
+                "guided-play": {
+                    "materials": [
+                        "Different size mixing bowls",
+                        "Cake Recipe (Appendix pg. 90)",
+                        "Measuring Pitchers",
+                        "Measuring Cups",
+                        "Measuring Spoons",
+                        "Aprons",
+                        "Chef Hats",
+                        "Play Food",
+                        "Plastic Eggs",
+                        "Plastic Peanuts",
+                        "Baking Pans",
+                        "Teddy Bears",
+                        "Candles",
+                        "Party Supplies",
+                        "Party Hats",
+                        "Plates",
+                        "Cups"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-6.pdf"
             },
             {
                 "name": "Week 4 - Session 7",
+                "guided-play": {
+                    "materials": [
+                        "Recipe for cloud dough (Appendix pg. 102)",
+                        "Mixing Bowls",
+                        "Measuring Cups",
+                        "Measuring Spoons",
+                        "Flour",
+                        "Vegetable Oil",
+                        "Food Coloring (Red or Blue)",
+                        "Stirring Spoons"
+                    ]
+                },
                 "objective": "To enhance children’s understanding of the target word: same and similar",
                 "pdf": "how-to-use/guided-play/sessions/session-7.pdf"
             },
             {
                 "name": "Week 4 - Session 8",
                 "objective": "To enhance children’s understanding of the target word: different and similar",
+                "guided-play": {
+                    "materials": [
+                        "Cloud Dough from Session 7",
+                        "Candles",
+                        "Plastic Plates",
+                        "Plastic Peanuts",
+                        "Small Cake Pans"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-8.pdf"
             }
         ] 
@@ -55,21 +151,71 @@
             {
                 "name": "Week 5 - Session 9",
                 "objective": "To enhance children’s understanding of the target word: some and a little bit",
+                "guided-play": {
+                    "materials": [
+                        "Play Food",
+                        "Blanket",
+                        "Baskets",
+                        "Teddy Bears",
+                        "Plastic Plates",
+                        "Plastic Cups",
+                        "Books"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-9.pdf"
             },
             {
                 "name": "Week 5 - Session 10",
                 "objective": "To enhance children’s understanding of the target word: least and fewest",
+                "guided-play": {
+                    "materials": [
+                        "Play Food",
+                        "Blanket",
+                        "Baskets",
+                        "Teddy Bears",
+                        "Plastic Plates",
+                        "Plastic Cups",
+                        "Books",
+                        "Plastic Apples",
+                        "Plastic Ants",
+                        "Plastic Cups",
+                        "Plastic Peanuts"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-10.pdf"
             },
             {
                 "name": "Week 6 - Session 11",
                 "objective": "To enhance children’s understanding of the target word: least and less",
+                "guided-play": {
+                    "materials": [
+                        "Water",
+                        "Yellow Food Coloring",
+                        "Plastic Cups",
+                        "Measuring Pitchers",
+                        "Funnels",
+                        "Measuring Cups"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-11.pdf"
             },
             {
                 "name": "Week 6 - Session 12",
                 "objective": "To enhance children’s understanding of the target word: less and few",
+                "guided-play": {
+                    "materials": [
+                        "Water",
+                        "Yellow Food Coloring",
+                        "Plastic Cups",
+                        "Measuring Pitchers",
+                        "Funnels",
+                        "Measuring Cups",
+                        "Blanket",
+                        "Tongs",
+                        "Plastic Apples",
+                        "Plastic Peanuts"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-12.pdf"
             }
         ] 
@@ -80,21 +226,61 @@
             {
                 "name": "Week 7 - Session 13",
                 "objective": "To enhance children’s understanding of the target word: more and same",
+                "guided-play": {
+                    "materials": [
+                        "Binoculars",
+                        "Plastic or Paper Stars",
+                        "A Blue Blanket",
+                        "Lily Pads",
+                        "Plastic Frogs",
+                        "Teddy Bears",
+                        "A Wooden Kid's Boat"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-13.pdf"
             },
             {
                 "name": "Week 7 - Session 14",
                 "objective": "To enhance children’s understanding of the target word: a lot and same",
+                "guided-play": {
+                    "materials": [
+                        "Binoculars",
+                        "Plastic or Paper Stars",
+                        "A Blue Blanket",
+                        "Lily Pads",
+                        "Plastic Frogs",
+                        "Teddy Bears",
+                        "A Wooden Kid's Boat",
+                        "Plastic Fish",
+                        "Plastic Fishing Poles",
+                        "Nets",
+                        "Play Food",
+                        "Baskets"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-14.pdf"
             },
             {
                 "name": "Week 8 - Session 15",
                 "objective": "To enhance children’s understanding of the target word: similar and more",
+                "guided-play": {
+                    "materials": [
+                        "Blocks",
+                        "Cut-outs of stars and planets (Appendix pg. 95 & 96)"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-15.pdf"
             },
             {
                 "name": "Week 8 - Session 16",
                 "objective": "To enhance children’s understanding of the target word: similar and most",
+                "guided-play": {
+                    "materials": [
+                        "Blocks",
+                        "Cut-outs of stars and planets (Appendix pg. 95 & 96)",
+                        "Colorful Blocks"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-16.pdf"
             }
         ] 
@@ -105,21 +291,69 @@
             {
                 "name": "Week 9 - Session 17",
                 "objective": "To enhance children’s understanding of the target word: many and a little bit",
+                "guided-play": {
+                    "materials": [
+                        "Plastic Bowls",
+                        "Plastic Cups",
+                        "Ice Cream Scoops",
+                        "Pretend Ice Cream",
+                        "Plastic Peanuts",
+                        "Ice cream cone template (Appendix pg. 97)",
+                        "Teddy Bears",
+                        "Empty Chocolate Syrup (or other topping) Container"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-17.pdf"
             },
             {
                 "name": "Week 9 - Session 18",
                 "objective": "To enhance children’s understanding of the target word: few and a lot",
+                "guided-play": {
+                    "materials": [
+                        "Plastic Bowls",
+                        "Plastic Cups",
+                        "Ice Cream Scoops",
+                        "Pretend Ice Cream",
+                        "Plastic Peanuts",
+                        "Ice cream cone template (Appendix pg. 97)",
+                        "Teddy Bears",
+                        "Empty Chocolate Syrup (or other topping) Container",
+                        "Party Hats",
+                        "Aprons",
+                        "Play Food",
+                        "Pretend fruit for toppings and other pretend desserts"
+                        
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-18.pdf"
             },
             {
                 "name": "Week 10 - Session 19",
                 "objective": "To enhance children’s understanding of the target word: few and some",
+                "guided-play": {
+                    "materials": [
+                        "Water Table",
+                        "Plastic Ice Cubes",
+                        "Plastic Bowls",
+                        "Tongs"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-19.pdf"
             },
             {
                 "name": "Week 10 - Session 20",
                 "objective": "To enhance children’s understanding of the target word: most and fewest",
+                "guided-play": {
+                    "materials": [
+                        "Sensory Tubs or Trays",
+                        "Shaving Cream",
+                        "Ice cream cone template (Appendix pg. 97)",
+                        "Food Coloring",
+                        "Ice Cream Scoops",
+                        "Aprons",
+                        "Ice Cream Sprinkles (Colored rice or cur up pipe cleaners)"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-20.pdf"
             }
         ] 
@@ -130,21 +364,64 @@
             {
                 "name": "Week 11 - Session 21",
                 "objective": "To enhance children’s understanding of the target word: different and same",
+                "guided-play": {
+                    "materials": [
+                        "Red, green, and yellow paper apples (Appendix pg. 98, 99, & 100)",
+                        "Baskets",
+                        "Play Money",
+                        "Brown Butcher Paper",
+                        "Green Butcher Paper",
+                        "Velcro"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-21.pdf"
             },
             {
                 "name": "Week 11 - Session 22",
                 "objective": "To enhance children’s understanding of the target word: similar and a couple",
+                "guided-play": {
+                    "materials": [
+                        "Red, green, and yellow paper apples (Appendix pg. 98, 99, & 100)",
+                        "Baskets",
+                        "Play Money",
+                        "Brown Butcher Paper",
+                        "Green Butcher Paper",
+                        "Velcro",
+                        "Plastic Apples",
+                        "Blanket",
+                        "Backpacks"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-22.pdf"
             },
             {
                 "name": "Week 12 - Session 23",
                 "objective": "To enhance children’s understanding of the target word: just enough and several",
+                "guided-play": {
+                    "materials": [
+                        "Water Table",
+                        "Plastic Cups",
+                        "Decorative Rocks",
+                        "Magnifying Glasses"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-23.pdf"
             },
             {
                 "name": "Week 12 - Session 24",
                 "objective": "To enhance children’s understanding of the target word: a little bit and several",
+                "guided-play": {
+                    "materials": [
+                        "Water Table",
+                        "Plastic Cups",
+                        "Decorative Rocks",
+                        "Magnifying Glasses",
+                        "Sticks",
+                        "Silk/Paper Leaves",
+                        "Plastic Fish",
+                        "Small Laminated Bats (Appendix pg. 108)"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-24.pdf"
             }
         ] 
@@ -155,31 +432,81 @@
             {
                 "name": "Week 13 - Session 25",
                 "objective": "To enhance children’s understanding of the target word: combine and a lot",
+                "guided-play": {
+                    "materials": [
+                        "Paper Plates",
+                        "Tempera Paint",
+                        "Filler (e.g. beans, rice, corn kernels, beads)",
+                        "Stapler",
+                        "Recipe for a Tambourine (Appendix pg. 101)"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-25.pdf"
             },
             {
                 "name": "Week 13 - Session 26",
                 "objective": "To enhance children’s understanding of the target word: same and similar",
+                "guided-play": {
+                    "materials": [
+                        "Tambourine from Session 25",
+                        "Various Musical Instruments"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-26.pdf"
             },
             {
                 "name": "Week 14 - Session 27",
                 "objective": "To enhance children’s understanding of the target word: few and some",
+                "guided-play": {
+                    "materials": [
+                        "Coffe Can",
+                        "Black Construction Paper",
+                        "Nail",
+                        "Hammer or Drill",
+                        "Flashlight or Battery Powered Candle"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-27.pdf"
             },
             {
                 "name": "Week 14 - Session 28",
                 "objective": "To enhance children’s understanding of the target word: similar and a lot",
+                "guided-play": {
+                    "materials": [
+                        "Craft Rolls",
+                        "Black Construction Paper",
+                        "Hole Punchers",
+                        "Markers",
+                        "Other Decorating Supplies",
+                        "Glue",
+                        "Flashlights"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-28.pdf"
             },
             {
                 "name": "Week 15 - Session 29",
                 "objective": "To enhance children’s understanding of the target word: many and a few",
+                "guided-play": {
+                    "materials": [
+                        "Pictures of Trees in Different Seasons (Appendix pg. 103)",
+                        "Sorting Game for Winter and Summer Clothing (Appendix pg. 104-105)"
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-29.pdf"
             },
             {
                 "name": "Week 15 - Session 30",
                 "objective": "To enhance children’s understanding of the target word: some and most",
+                "guided-play": {
+                    "materials": [
+                        "Pre-cut/drawn tree trunks and branches",
+                        "Tempera Paint (Red Orange, Yellow, Green, White, & Pink)",
+                        "Paper",
+                        "Glue"
+
+                    ]
+                },
                 "pdf": "how-to-use/guided-play/sessions/session-30.pdf"
             }
         ] 
