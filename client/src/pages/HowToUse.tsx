@@ -1,11 +1,11 @@
-import React from "react";
-import { Accordion } from "react-bootstrap";
+import React, {useState} from "react";
 import {Routes, Route} from "react-router-dom";
 import units from "../assets/data/how-to-use/guided-play/unit-info.json";
 import { GPUnitEntry } from "../components/GPUnitEntry";
 import materials from "../assets/data/how-to-use/materials-needed.json";
 import { Link } from "react-router-dom";
 import { GPTable } from "../components/GPTable";
+import { ToggleButton, ToggleButtonGroup } from "../components/ToggleButtonGroup";
 
 interface MaterialLink {
     file: boolean,
@@ -16,7 +16,7 @@ interface Material {
     material: string,
     items?: string[],
     link?: MaterialLink
-};
+}
 
 export const HowToUse: React.FC = () =>
 {
@@ -55,6 +55,30 @@ const TrainingMaterials: React.FC = () =>
 
 const MaterialsNeeded: React.FC = () =>
 {
+
+    const [sortTableBy, setSortTableBy] = useState<string>("");
+
+    const handleSortByWeek = () => {
+        setSortTableBy("week");
+    }
+
+    const handleSortByMaterial = () => {
+        setSortTableBy("material");
+    }
+
+    const GPTablebuttons: ToggleButton[] = [
+        {
+            text: "Week",
+            toggled: false,
+            onClick: handleSortByWeek
+        },
+        {
+            text: "Material",
+            toggled: false,
+            onClick: handleSortByMaterial
+        }
+    ]
+
     return (
         <div className="flex flex-col items-center gap-4">
             <div className="flex flex-col items-center">
@@ -84,12 +108,13 @@ const MaterialsNeeded: React.FC = () =>
                 <h1 className="section-header">Session Guides</h1>
                 <div className="flex flex-col gap-4">
                     {units.map((u, index) => (
-                        <GPUnitEntry name={u.name} sessions={u.sessions}></GPUnitEntry>
+                        <GPUnitEntry key={index} name={u.name} sessions={u.sessions}></GPUnitEntry>
                     ))}
                 </div>
             </div>
-            <div>
-                <h1 className="section-header">Guided Play Materials</h1> 
+            <div className="flex flex-col items-center gap-4 ">
+                <h1 className="section-header">Guided Play Materials</h1>
+                <ToggleButtonGroup buttons={GPTablebuttons} multiSelect={false}></ToggleButtonGroup> 
                 <GPTable></GPTable>  
             </div>
         </div>
