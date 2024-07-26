@@ -83,7 +83,7 @@ export const NavBar: React.FC = () =>
 
     return (
         // RPL logo --> Home --> Search Bar --> About (Dropdown) --> How to Use (Dropdown) --> Books --> FAQ
-        <div className="sticky top-0 h-20 w-full flex justify-evenly items-center gap-4 bg-purdue-gold">
+        <div className="sticky top-0 h-20 w-full flex justify-evenly items-center gap-4 bg-purdue-gold z-50">
             <div className="flex gap-4 items-center justify-items-center">
                 <RouteButton title={"Home"} route={"/"} Icon={FaHome}></RouteButton>
                 <SearchBar></SearchBar>
