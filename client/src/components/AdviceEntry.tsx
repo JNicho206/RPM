@@ -1,16 +1,16 @@
 import React from "react";
 
 export interface AdviceEntryProps {
-    name: string,
+    name?: string,
     advice: string
 };
 
 export const AdviceEntry: React.FC<AdviceEntryProps> = ({name, advice}) => {
 
     return (
-        <div>
-            <p>{advice}</p>
-            <span> --- {name}</span>
+        <div className="flex justify-center">
+            <p className="text-center text-lg">{advice}</p>
+            {name && <span> --- {name}</span>}
         </div>
     )
 }
