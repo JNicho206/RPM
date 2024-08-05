@@ -7,6 +7,7 @@ import { About } from './pages/About';
 import { Books } from './pages/Books';
 import { FAQ } from './pages/FAQ';
 import { HowToUse } from './pages/HowToUse';
+import { GettingStarted } from './pages/GettingStarted';
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
               <Route path="/books/*" element={<Books />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/how-to-use/*" element={<HowToUse />} />
+              <Route path="/getting-started" element={<GettingStarted />} />
             </Routes>
           </div>
         <Footer />
