@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/tmp.jpg"
+import { FaArrowCircleRight } from "react-icons/fa";
 
 export const Home: React.FC = () =>
 {
@@ -46,6 +47,15 @@ export const Home: React.FC = () =>
                     <Goal key={goal.n} n={goal.n} title={goal.title} description={goal.description}></Goal>
                 ))}
             </div>
+            <div className="my-20 flex justify-center">
+                <a href="#" className="nav-link max-w-fit">
+                    <div className="flex justify-center items-center gap-4">
+                        <span className="text-2xl">Get Started</span>
+                        <FaArrowCircleRight />
+                    </div>
+                    
+                </a>
+            </div>
         </div>
     )
 }
@@ -57,7 +67,8 @@ interface GoalProps
     n: number,
     title: string,
     description: string
-};
+}
+
 const Goal: React.FC<GoalProps> = ({n, title, description}) =>
 {
 
