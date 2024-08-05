@@ -6,6 +6,8 @@ import materials from "../assets/data/how-to-use/materials-needed.json";
 import { Link } from "react-router-dom";
 import { GPTable } from "../components/GPTable";
 import { ToggleButton, ToggleButtonGroup } from "../components/ToggleButtonGroup";
+import pgData from "../assets/data/how-to-use/progress-monitoring/info.json";
+import { FileButton } from "../components/FileButton";
 
 interface MaterialLink {
     file: boolean,
@@ -58,24 +60,27 @@ const MaterialsNeeded: React.FC = () =>
 
     const [sortTableBy, setSortTableBy] = useState<string>("");
 
-    const handleSortByWeek = () => {
+    const handleClickSortByWeek = (i: number) => {
         setSortTableBy("week");
+        GPTablebuttons[i].toggled = true;
     }
 
-    const handleSortByMaterial = () => {
+    const handleClickSortByMaterial = () => {
         setSortTableBy("material");
     }
 
     const GPTablebuttons: ToggleButton[] = [
         {
+            id: 0,
             text: "Week",
             toggled: false,
-            onClick: handleSortByWeek
+            onClick: handleClickSortByWeek
         },
         {
+            id: 1,
             text: "Material",
             toggled: false,
-            onClick: handleSortByMaterial
+            onClick: handleClickSortByMaterial
         }
     ]
 
@@ -85,8 +90,8 @@ const MaterialsNeeded: React.FC = () =>
                 <h1 className="section-header">Materials</h1>
                 <div className="flex flex-col items-center">
                     <ol className="list-decimal">
-                        {materials.map((m: Material) => (
-                            <li>
+                        {materials.map((m: Material, i) => (
+                            <li key={i}>
                                 {/* No Link */}
                                 {!m.link && m.material} 
                                 {/* Link and path is to a file */}
@@ -114,8 +119,9 @@ const MaterialsNeeded: React.FC = () =>
             </div>
             <div className="flex flex-col items-center gap-4 ">
                 <h1 className="section-header">Guided Play Materials</h1>
+                <h4>Sort By:</h4>
                 <ToggleButtonGroup buttons={GPTablebuttons} multiSelect={false}></ToggleButtonGroup> 
-                <GPTable></GPTable>  
+                <GPTable sortTableBy={sortTableBy}></GPTable>  
             </div>
         </div>
 
@@ -125,8 +131,20 @@ const MaterialsNeeded: React.FC = () =>
 const ProgressMonitoring: React.FC = () =>
 {
     return (
-        <div className="flex flex-col items-center gap-4">
+        <div className="flex flex-col items-center gap-4 mx-96">
             <h1 className="section-header">Progress Monitoring</h1>
+            <div>
+                <ul className="list-disc">
+                    {pgData.map((pg: string) => (
+                        <li className="pb-4">
+                            {pg}
+                        </li>
+                    ))}
+                </ul>
+            </div>
+            <h3>Progress Monitoring CheckList</h3>
+            <FileButton type="open" path="/assets/data/how-to-use/progress-monitoring/progress-monitoring-checklist.png" text="View Checklist"></FileButton>
+            <FileButton type="download" path="/assets/data/how-to-use/progress-monitoring/progress-monitoring-checklist.png" text="Download Checklist"></FileButton>
         </div>
 
     )
