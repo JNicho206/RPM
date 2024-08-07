@@ -44,30 +44,25 @@ const Default: React.FC = () => {
         <div className="flex flex-col items-center mx-20">
             <h1>About</h1>
             <div className="flex gap-10">
-                <Link to="research">
-                    <Card bg={researchBg} text="white" style={{ width: '25rem', height: "350px", cursor: "pointer"}} onMouseEnter={handleResearchEnter} onMouseLeave={handleResearchLeave}>
-                        <Card.Body>
-                            <Card.Title>Research</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Publications and Evidence for RPM</Card.Subtitle>
-                            <Card.Text>
-                            Here you can view publications from our researchers about ... You can also read through evidence that supports the methods used in RPM.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Link>
-                <Link to="our-team">
-                    <Card bg={ourTeamBg} text="white" style={{ width: '25rem', height: "350px", cursor: "pointer"}} onMouseEnter={handleOurTeamEnter} onMouseLeave={handleOurTeamLeave}>
-                        <Card.Body>
-                            <Card.Title>Our Team</Card.Title>
-                            <Card.Subtitle className="mb-2 text-muted">Meet our team and learn more about them and their work.</Card.Subtitle>
-                            <Card.Text>
-                            Here you can get to know our team members, what their roles have been, and check out links to their work and profiles.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Link>
+            <div className="flex flex-col gap-10">
+                <div className="flex flex-col items-center">
+                    <a href="research" className="hov-underline-anim max-w-fit">
+                        <div className="flex justify-center items-center gap-4">
+                            <h3>Research</h3>
+                        </div>
+                    </a>
+                    <p className="text-2xl">Read about the research and evidence that supports Read Play Math.</p>
+                </div>
             </div>
-
+            <div className="flex flex-col items-center">
+                <a href="our-team" className="hov-underline-anim max-w-fit">
+                    <div className="flex justify-center items-center gap-4">
+                        <h3>Our Team</h3>
+                    </div>
+                </a>
+                <p className="text-2xl">Meet our team and see what they do.</p>
+            </div>
+            </div>
         </div>
     )
 }

@@ -39,8 +39,34 @@ export const HowToUse: React.FC = () =>
 const Default: React.FC = () =>
 {
     return (
-        <div>
-            
+        <div className="flex flex-col gap-4 my-20">
+            <h1 className="section-header">How to Use</h1>
+            <div className="flex flex-col gap-10">
+                <div className="flex flex-col items-center">
+                    <a href="training-materials" className="hov-underline-anim max-w-fit">
+                        <div className="flex justify-center items-center gap-4">
+                            <h3>Training Materials</h3>
+                        </div>
+                    </a>
+                    <p className="text-2xl">Check out videos and information about how to get the most out of Read Play Math.</p>
+                </div>
+            </div>
+            <div className="flex flex-col items-center">
+                <a href="materials-needed" className="hov-underline-anim max-w-fit">
+                    <div className="flex justify-center items-center gap-4">
+                        <h3>Materials Needed</h3>
+                    </div>
+                </a>
+                <p className="text-2xl">Discover which materials you may need, access detailed week-by-week session guides, and easily view information about each week and material.</p>
+            </div>
+            <div className="flex flex-col items-center">
+                <a href="progress-monitoring" className="hov-underline-anim max-w-fit">
+                    <div className="flex justify-center items-center gap-4">
+                        <h3>Progress Monitoring</h3>
+                    </div>
+                </a>
+                <p className="text-2xl">Learn more about how you can track progress through the Read Play Math program.</p>
+            </div>
         </div>
 
     )
