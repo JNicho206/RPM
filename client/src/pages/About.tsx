@@ -1,11 +1,8 @@
-import React, { useState } from "react";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React from "react";
+import { Route, Routes } from 'react-router-dom';
 import mock from "../assets/data/about/our-team/photos/mock.jpg";
 import memberData from "../assets/data/about/our-team/team-info.json";
 import { TeamMemberAboutEntry, TeamMemberAboutEntryProps } from "../components/TeamMemberAboutEntry";
-import Card from "react-bootstrap/Card";
-import { RouteButton } from "../components/RouteButton";
-import { Link } from "react-router-dom";
 
 
 export const About: React.FC = () =>
@@ -23,22 +20,6 @@ export const About: React.FC = () =>
 }
 
 const Default: React.FC = () => {
-    const [researchBg, setResearchBg] = useState("secondary");
-    const [ourTeamBg, setOurTeamBg] = useState("secondary");
-
-    const handleResearchEnter = () => {
-        setResearchBg("info");
-    }
-    const handleResearchLeave = () => {
-        setResearchBg("secondary");
-    }
-
-    const handleOurTeamEnter = () => {
-        setOurTeamBg("info");
-    }
-    const handleOurTeamLeave = () => {
-        setOurTeamBg("secondary");
-    }
 
     return (
         <div className="flex flex-col items-center mx-20">
@@ -69,9 +50,6 @@ const Default: React.FC = () => {
 
 export const Research: React.FC = () =>
 {
-    const publicationsInfo = {
-
-    }
 
     return (
         <div className="flex flex-col justify-center items-center gap-4">
@@ -114,8 +92,8 @@ export const OurTeam: React.FC = () =>
         <div className="flex flex-col items-center gap-14 mx-96 mt-20 mb-20">
             <h1 className="font-bold text-5xl border-b-4 border-black border-solid px-4">Our Team</h1>
             <div className="flex flex-col items-center gap-10">
-                {memberData.map((member) => (
-                    <TeamMemberAboutEntry name={member.name as string} bio={member.bio as string} img={member.img as string}></TeamMemberAboutEntry>
+                {memberData.map((member: TeamMemberAboutEntryProps) => (
+                    <TeamMemberAboutEntry name={member.name} bio={member.bio} img={member.img? member.img : mock}></TeamMemberAboutEntry>
                 ))}
             </div>
         </div>
