@@ -8,6 +8,7 @@ import { GPTable } from "../components/GPTable";
 import { ToggleButton, ToggleButtonGroup } from "../components/ToggleButtonGroup";
 import pgData from "../assets/data/how-to-use/progress-monitoring/info.json";
 import { FileButton } from "../components/FileButton";
+import { Separator } from "../components/Separator";
 
 interface MaterialLink {
     file: boolean,
@@ -133,14 +134,13 @@ const ProgressMonitoring: React.FC = () =>
     return (
         <div className="flex flex-col items-center gap-4 mx-96">
             <h1 className="section-header">Progress Monitoring</h1>
-            <div>
-                <ul className="list-disc">
-                    {pgData.map((pg: string) => (
-                        <li className="pb-4">
-                            {pg}
-                        </li>
-                    ))}
-                </ul>
+            <div className="flex flex-col items-center gap-4">
+                {pgData.map((pg: string, i: number) => (
+                    <div>
+                        <p className="text-center">{pg}</p>
+                        {i < pgData.length - 1 && <Separator type="icon" n={3} />}
+                    </div>
+                ))}
             </div>
             <h3>Progress Monitoring CheckList</h3>
             <FileButton type="open" path="/assets/data/how-to-use/progress-monitoring/progress-monitoring-checklist.png" text="View Checklist"></FileButton>
