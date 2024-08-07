@@ -16,14 +16,14 @@
 }
 
 
-.nav-link {
+.hov-underline-anim {
     position: relative;
     display: inline-flex;
     align-items: center;
     text-decoration: none;
 }
 
-.nav-link::after {
+.hov-underline-anim::after {
     content: '';
     position: absolute;
     left: 50%;
@@ -35,7 +35,7 @@
     transform: translateX(-50%);
 }
 
-.nav-link:hover::after {
+.hov-underline-anim:hover::after {
     width: 100%;
     left: 50%;
     transform: translateX(-50%);
@@ -45,6 +45,6 @@
     font-size: 1.5rem; /* Adjust based on your desired font size */
 }
 
-a.nav-link svg {
+a.hov-underline-anim svg {
     margin-left: 8px; /* Adjust the space between the text and the icon */
 }

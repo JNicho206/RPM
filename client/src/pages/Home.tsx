@@ -48,7 +48,7 @@ export const Home: React.FC = () =>
                 ))}
             </div>
             <div className="my-20 flex justify-center">
-                <a href="#" className="nav-link max-w-fit">
+                <a href="#" className="hov-underline-anim max-w-fit">
                     <div className="flex justify-center items-center gap-4">
                         <span className="text-2xl">Get Started</span>
                         <FaArrowCircleRight />
