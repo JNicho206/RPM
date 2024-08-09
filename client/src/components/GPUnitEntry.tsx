@@ -6,7 +6,7 @@ import { GPSessionEntry, GPSessionEntryProps } from "./GPSessionEntry";
 export interface GPUnitEntryProps {
     name: string,
     sessions: GPSessionEntryProps[],
-};
+}
 
 export const GPUnitEntry: React.FC<GPUnitEntryProps> = ({name, sessions}) => {
 

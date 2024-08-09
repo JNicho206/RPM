@@ -3,7 +3,7 @@ import React from "react";
 export interface AdviceEntryProps {
     name?: string,
     advice: string
-};
+}
 
 export const AdviceEntry: React.FC<AdviceEntryProps> = ({name, advice}) => {
 
